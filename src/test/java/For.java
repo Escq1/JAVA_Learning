@@ -10,11 +10,11 @@ public class For {
 //
 //            System.out.println("Имя № " + i + " " + names[i]);
 //        }
-        for (String name : names) {
-            if(name == "Даша") {
-                break;
-            }
-            System.out.println("Имя № " + name);
+//        for (String name : names) {
+//            if(name == "Даша") {
+//                break;
+//            }
+//            System.out.println("Имя № " + name);
         }
     }
 }
