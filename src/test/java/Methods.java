@@ -29,8 +29,7 @@ public class Methods {
         printNumDoors(doorsCount);
 
 // Двери в цикле (+5)
-        cycleDoors(doorsCount);
-
+       doorsCount = cycleDoors(doorsCount);
 
     }
 
@@ -48,11 +47,12 @@ public class Methods {
         System.out.println("Current numbers of Doors is: " + numDoors);
     }
 
-    private static void cycleDoors(int addDoor){
+    private static int cycleDoors(int addDoor){
         for (int i=0;i<5;i++){
             addDoor = addOneDoor(addDoor);
             printNumDoors(addDoor);
         }
+        return addDoor;
     }
 
 }
