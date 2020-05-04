@@ -39,12 +39,12 @@ public class Pasha {
 
 // Вывод среднего значения
     public static void comparAvg(int[] myarray) {
-        int avg = 0;
+        double avgSum = 0;
         for (int i = 0; i < myarray.length; i++) {
-          avg=avg+myarray[i];
+            avgSum=avgSum+myarray[i];
         }
-        avg = avg/myarray.length;
-        System.out.println("\n" + "Average element is: " + avg);
+        avgSum = avgSum/myarray.length;
+        System.out.println("\n" + "Average summ is: " + avgSum);
     }
 
 // Задание* Упорядочить все элементы массива
